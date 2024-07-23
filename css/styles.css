@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-  --primary: rgba(24, 25, 26, 255);
-  --gray: rgba(58, 59, 60, 255);
-  --light-primary: rgba(49, 50, 51, 255);
-  --white: rgb(235, 235, 235);
-  --light-gray: rgb(97, 97, 97);
+  --first-color: rgba(24, 25, 26, 255);
+  --gray-100-v: rgba(58, 59, 60, 255);
+  --light-first-color: rgba(49, 50, 51, 255);
+  --secondary-color: rgb(235, 235, 235);
+  --gray-75: rgb(97, 97, 97);
 }
 
 * {
@@ -16,12 +16,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--first-color);
+  color: var(--secondary-color);
 }
 
 a {
-  color: var(--white);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 #side-content {
-  background-color: var(--gray);
+  background-color: var(--gray-100-v);
   padding: 1.5em;
   margin-left: auto;
   margin-right: auto;
@@ -49,8 +49,8 @@ h1 {
 .profile-container .resume-btn {
   margin: 1em 0;
   padding: 0.6em;
-  background-color: var(--light-gray);
-  color: var(--white);
+  background-color: var(--light-gray-100-v);
+  color: var(--secondary-color);
   border: none;
   border-radius: 5px;
   font-size: 1em;
@@ -58,7 +58,7 @@ h1 {
 
 .profile-container .resume-btn i {
   padding-right: 0.3em;
-  color: var(--white);
+  color: var(--secondary-color);
 }
 
 .table-of-contents-container {
@@ -92,7 +92,7 @@ section {
 }
 
 .sub-container {
-  background-color: var(--light-primary);
+  background-color: var(--light-first-color);
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -144,7 +144,7 @@ section {
 }
 
 #exp_section .skills-container .skill {
-  background-color: var(--light-primary);
+  background-color: var(--light-first-color);
   margin: 0.2em;
   padding: 0.6em;
   border-radius: 5px;
@@ -167,10 +167,10 @@ button {
   font-family: "Rubik", sans-serif;
   padding: 0.5em;
   margin: 0.4em 0;
-  background-color: var(--gray);
-  color: var(--white);
+  background-color: var(--gray-100-v);
+  color: var(--secondary-color);
   border-radius: 5px;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--gray-100-v);
 }
 
 .contact-container button {
@@ -205,7 +205,7 @@ button {
     text-align: left;
     max-width: 35%;
     position: fixed;
-    background-color: var(--primary);
+    background-color: var(--first-color);
     padding: 2.5em 0 2.5em 5em;
   }
 
